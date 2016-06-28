@@ -91,10 +91,17 @@ public class LegoBrick extends Extendable3dModel {
 		return new Cylinder(HEIGHT, AXLE_ONE_DIAMETER);
 	}
 	
-	public static void main(String[] args) throws IllegalValueException, IOException {
-		new SaveScadFiles(new File("C:/temp")).
+	public static void run(File root) throws IllegalValueException, IOException {
+		new SaveScadFiles(root).
 				addModel("lego_brick.scad", new LegoBrick(2, 6)).
 				saveScadFiles();
+	}
+	
+	public static void main(String[] args) throws IllegalValueException, IOException {
+		File root = new File("c:/temp");
+		if (args.length>0) root = new File(args[0]);
+		
+		run(root);
 	}
 
 }
