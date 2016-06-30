@@ -1,4 +1,4 @@
-package eu.printingin3d.eu.javascad.models.legobrick;
+package eu.printingin3d.javascad.models.legobrick;
 
 import java.io.File;
 import java.io.IOException;

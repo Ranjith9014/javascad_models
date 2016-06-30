@@ -1,11 +1,11 @@
-package eu.printingin3d.eu.javascad.models;
+package eu.printingin3d.javascad.models;
 
 import java.io.File;
 import java.io.IOException;
 
-import eu.printingin3d.eu.javascad.models.cakeholder.CakeHolder;
-import eu.printingin3d.eu.javascad.models.legobrick.LegoBrick;
 import eu.printingin3d.javascad.exceptions.IllegalValueException;
+import eu.printingin3d.javascad.models.cakeholder.CakeHolder;
+import eu.printingin3d.javascad.models.legobrick.LegoBrick;
 
 public class Main {
 	

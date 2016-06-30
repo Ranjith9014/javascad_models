@@ -1,4 +1,4 @@
-package eu.printingin3d.eu.javascad.models.cakeholder;
+package eu.printingin3d.javascad.models.cakeholder;
 
 import java.io.File;
 import java.io.IOException;
