@@ -93,7 +93,7 @@ public class LegoBrick extends Extendable3dModel {
 	
 	public static void run(File root) throws IllegalValueException, IOException {
 		new SaveScadFiles(root).
-				addModel("lego_brick.scad", new LegoBrick(2, 6)).
+				addModel("lego_brick.scad", new LegoBrick(2, 4)).
 				saveScadFiles();
 	}
 	

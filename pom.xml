@@ -62,9 +62,9 @@
 							<goal>java</goal>
 						</goals>
 						<configuration>
-							<mainClass>eu.printingin3d.eu.javascad.models.Main</mainClass>
+							<mainClass>eu.printingin3d.javascad.models.Main</mainClass>
 							<arguments>
-								<argument>C:/temp</argument>
+								<argument>${project.build.directory}/models</argument>
 							</arguments>
 						</configuration>
 					</execution>
